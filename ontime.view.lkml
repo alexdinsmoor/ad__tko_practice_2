@@ -76,6 +76,7 @@ view: ontime {
   }
 
   dimension: id2 {
+    primary_key: yes
     type: number
     sql: ${TABLE}.id2 ;;
   }

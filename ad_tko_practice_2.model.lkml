@@ -17,5 +17,4 @@ explore: ontime {
     relationship: many_to_one
     sql_on: ${ontime.destination} = ${airports_destination.code};;
   }
-
 }
